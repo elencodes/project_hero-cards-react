@@ -1,0 +1,44 @@
+.card {
+	width: 25vw;
+	padding: 1.25rem 1.25rem 2.1875rem 1.25rem;
+	margin: .625rem;
+	border: .125rem solid #828dff;
+	border-radius: .625rem;
+	text-align: center;
+	background-color: #171c48;
+	color: #FFFFFF;
+}
+
+.subtitle {
+	font-size: 1.5625rem;
+	text-transform: uppercase;
+	color: #24feee;
+}
+
+p {
+	margin: .625rem;
+}
+
+
+strong,
+span {
+	font-size: 1rem;
+	font-weight: 600;
+	font-style: italic;
+	color: #828dff;
+}
+
+.image {
+	width: 25vw;
+	height: auto;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.text {
+	font-size: .5rem;
+}
