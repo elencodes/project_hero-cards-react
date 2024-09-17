@@ -1,7 +1,7 @@
 import "./Card.css";
 import data from "../../data/data.json";
 
-export function Card() {
+function Card() {
 	return (
 		<>
 			{data.map((card) => {
@@ -38,3 +38,5 @@ export function Card() {
 		</>
 	);
 }
+
+export default Card;
